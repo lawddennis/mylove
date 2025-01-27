@@ -26,6 +26,7 @@ function moveNoButton() {
     const randomX = Math.min(Math.floor(Math.random() * maxX), maxX);
     const randomY = Math.min(Math.floor(Math.random() * maxY), maxY);
 
+    // Apply the random position to the "No" button
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
 }
