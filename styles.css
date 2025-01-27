@@ -79,3 +79,20 @@ button:focus {
     background-color: #e43e3e;
     transform: scale(1.05);
 }
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .btn-group {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 20px; /* Add extra space between buttons */
+    }
+
+    .yes-btn, 
+    .no-btn {
+        width: 100%; /* Make buttons full width for easy tapping */
+        position: relative; /* Reset absolute positioning for "No" button */
+    }
+
+    .no-btn {
+        transform: none; /* Reset transform to remove default position offset */
+    }
+}
