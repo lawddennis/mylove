@@ -79,6 +79,7 @@ button:focus {
     background-color: #e43e3e;
     transform: scale(1.05);
 }
+
 /* Mobile-friendly adjustments */
 @media (max-width: 768px) {
     .btn-group {
